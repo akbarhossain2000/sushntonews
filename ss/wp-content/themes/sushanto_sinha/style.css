@@ -1,0 +1,53 @@
+/**
+*	Theme Name: Sushanto Shinha
+*	Author: softtrek
+*	Version: 1.1.0 
+**/
+
+.latest-video .img-wrapper.media-left img {
+	width: 108px;
+	height: 104px;
+}
+
+
+/*===== Pagination =====*/
+
+.pagination {}
+.pagination ul {}
+.pagination ul li{
+	display: inline-block;
+
+}
+.pagination ul li a{
+	display: block;
+	height: 30px;
+	background: #ed1c24;
+	padding: 0px 12px;
+	font-size: 12px;
+	text-align: center;
+	color: black;
+	line-height: 30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-sizing: content-box;
+}
+.pagination ul li a:hover{
+	background: #262424;
+	color: #FFF;
+}
+
+.pagination ul li span.current {
+	display: block;
+	height: 30px;
+	background: #E8E8FF;
+	padding: 0px 12px;
+	font-size: 13px;
+	text-align: center;
+	color: black;
+	line-height: 30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-sizing: content-box;
+}
